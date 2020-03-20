@@ -3,7 +3,7 @@
         <StyledBlockWithGradientBackground>
             <div class="container">
                 <div class="row text-center p-5 ">
-                    <div class="col-12 logo pt-4 "><h1 class="text-pop-up-top text-center text-white display-1">Exchange</h1></div>
+                    <div class="col-12 logo pt-5 "><h1 class="text-pop-up-top text-center text-white display-1">Exchange</h1></div>
                     <div class="col-6 logo slide-in-fwd-right"><h1 class="display-2 text-white ">Powered By Vue</h1></div>
                     <div class="col-6 slide-in-fwd-left "><img class="img-fluid w-50 mt-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/694px-Vue.js_Logo_2.svg.png" /></div>
 
