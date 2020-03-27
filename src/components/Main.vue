@@ -28,7 +28,7 @@
                                 <option value="AUD">AUD</option>
                                 <option value="RON">RON</option>
                                 <option value="SEK">SEK</option>
-                                <option value="IDR">IDR</option>
+                                <option value="EUR">EUR</option>
                                 <option value="INR">INR</option>
                                 <option value="BRL">BRL</option>
                                 <option value="JPY">JPY</option>
@@ -152,10 +152,10 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 m-4 shadow">
                     <div class="row">
                         <div class="col-5 mt-3 mb-3">
-                            <img class="img-fluid" src="./svg/indonesia.svg"/>
+                            <img class="img-fluid" src="./svg/european-union.svg"/>
                         </div>
                         <div :class="countclass">
-                            <p  >{{((rates.IDR * 1/rates[currency])*count).toFixed(2)}}</p>
+                            <p  >{{((rates.EUR * 1/rates[currency])*count).toFixed(2)}}</p>
                         </div>
                     </div>
                 </div>
